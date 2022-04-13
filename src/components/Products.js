@@ -25,7 +25,7 @@ const Products = props => {
           <p>Yazar:{book.author}</p>
           <p>Fiyat:  {book.price }$</p>
           <button onClick={()=>context.addToCart(book)}>Sepete Ekle</button>
-          <button onClick={()=>console.log(context.book)}>{book.count}</button>
+         
         </div>
 
       </div>)}
